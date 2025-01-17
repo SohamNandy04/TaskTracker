@@ -9,9 +9,22 @@ Mongo DB (For Database)
 
 JWT
 
-BCrypt
+bcrypt
 
 ## Dependencies Used
+bcrypt
+
+cookie-parser
+
+cors
+
+dotenv
+
+express
+
+jsonwebtoken
+
+mongoose
 
 
 ## Operations Can Be Performed
