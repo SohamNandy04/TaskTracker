@@ -1,10 +1,14 @@
 # Developed the backend for a Task Management System
 
 ## Technologies Used
-JavaScript 
+JavaScript
+
 Node JS
+
 Mongo DB (For Database)
+
 JWT
+
 BCrypt
 
 ## Dependencies Used
@@ -13,7 +17,11 @@ BCrypt
 ## Operations Can Be Performed
 Authenticated User Registration and Login
 Creating Task
+
 Reading Task
+
 Updating Task
+
 Deleting Task
+
 Logout
