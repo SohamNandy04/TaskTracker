@@ -27,7 +27,7 @@ app.use("/api/v1/task",taskRouter)
 
 
 app.get("/",(req,res) => {
-    res.send("Nice Boss")
+    res.send("Working")
 })
 
 //error middleware
