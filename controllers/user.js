@@ -30,7 +30,7 @@ export const login = async (req,res,next) => {
         const User = await user.findOne({email}).select("+password")
 
         if(!User)
-            return next(new ErrorHandler(404,"Invalid Email or Password"))
+            return next(new ErrorHandler(404,"Register First"))
 
         const isMatch = await bcrypt.compare(password,User.password)
 
